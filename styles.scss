@@ -1,0 +1,132 @@
+//overordnet
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+//Link til typografi
+//h1
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700');
+//h1
+//h2
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+//h2 slut
+//p
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+//p slut
+//Link til typografi slut
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+#logosort {
+  width: 160pt;
+  height: 124.224pt;
+  padding: 20pt;
+
+}
+
+  h1 {
+    font-family: Bitter, "Bell MT", Serif;
+    font-style: bold;
+    text-align: center;
+    margin: 16pt;
+    color: #338aff;
+    font-size: x-large;
+  }
+
+  p {
+    font-family: Crimson, "Bell MT", Serif;
+    text-align: left;
+    margin: 16pt;
+    color: #4e6380;
+    font-size: large;
+  }
+
+  .one_image {
+    display: flex;
+    justify-content: center;
+    margin: 16pt;
+  }
+
+  .images {
+  display: flex;
+  justify-content: space-around;
+  margin: 16pt;
+  }
+  //overordnet slut
+
+  //navigation
+  nav {
+    font-family: Crimson, "Bell MT", Serif;
+    font-style: bold;
+    font-size: 20pt;
+    //nav_placering af tekst
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    //nav_placering af tekst slut
+    //nav_links
+      //ikke besøgt
+    * .active {
+      //color: #80b6ff;
+      color: white;
+      background-color: #4e6380;
+      padding: 4pt;
+      text-decoration: none;
+    }
+      a:link {
+        color: #4e6380;
+        text-decoration: none;
+        background-color: #ffffff;
+        padding: 4pt;
+      }
+      //ikke besøgt slut
+      //besøgt
+      a:visited {
+        color: #4e6380;
+        text-decoration: none;
+        background-color: #ffffff;
+        padding: 4pt;
+      }
+      //besøgt slut
+      //hover
+      /*a:hover {
+        color: #4e6380;
+        text-decoration: none;
+      }
+      //hover slut
+      //aktuel side
+      /*a:active {
+        //color: #80b6ff;
+        color: white;
+        background-color: #4e6380;
+      text-decoration: none;
+      }*/
+      /*.active {
+        //color: #80b6ff;
+        color: white;
+        background-color: #4e6380;
+        padding: 4pt;
+        text-decoration: none;
+      }
+      //aktuel side slut*/
+
+  }
+  //navigation slut
+
+  footer {
+    background-color: #000000;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer img {
+    height: 40px;
+    padding: 10px;
+  }
