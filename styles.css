@@ -204,8 +204,7 @@ footer img {
     #produktside {
       display: grid;
       grid-template-columns: 50% 50%;
-      grid-template-areas: "header header" "nav nav" "kay_titel kay_titel" "kay1 kay2" "kay3 ." "kaehler_titel kaehler_titel" "kaehler1 kaehler2" "copen_titel copen_titel" "copen ." "ny_titel ny_titel" "ny1 ny2" "footer footer";
-      grid-gap: 20px; }
+      grid-template-areas: "header header" "nav nav" "kay_titel kay_titel" "kay1 kay2" "kay3 ." "kaehler_titel kaehler_titel" "kaehler1 kaehler2" "copen_titel copen_titel" "copen ." "ny_titel ny_titel" "ny1 ny2" "footer footer"; }
 
     header {
       grid-area: header; }
@@ -214,19 +213,7 @@ footer img {
       grid-area: nav; }
 
     footer {
-      grid-area: footer; }
-
-    #kay {
-      grid-area: kay; }
-
-    #kaehler {
-      grid-area: kaehler; }
-
-    #copen {
-      grid-area: copen; }
-
-    #nye {
-      grid-area: nye; } }
+      grid-area: footer; } }
   @media screen and (min-width: 1200px) {
     #inspirationsside {
       display: grid;
