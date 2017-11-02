@@ -32,7 +32,7 @@ header {
 
   h1 {
     font-family: Bitter, "Bell MT", Serif;
-    font-style: bold;
+    font-weight: bold;
     text-align: center;
     margin: 16pt;
     color: #338aff;
@@ -63,60 +63,47 @@ header {
   //navigation
   nav {
     font-family: Crimson, "Bell MT", Serif;
-    font-style: bold;
-    font-size: 20pt;
+    font-weight: bold;
+    font-size: 13pt;
     //nav_placering af tekst
     display: flex;
     justify-content: space-around;
-    padding: 8px;
+    padding: 8pt;
+    margin: 0pt 10pt;
     //nav_placering af tekst slut
+
     //nav_links
-      //ikke besøgt
-    * .active {
-      //color: #80b6ff;
-      color: white;
-      background-color: #4e6380;
-      padding: 4pt;
-      text-decoration: none;
-    }
-      a:link {
+      //nav_normal (besøgt, ikke besøgt og hover)
+      a{
         color: #4e6380;
         text-decoration: none;
         background-color: #ffffff;
-        padding: 4pt;
+        padding: 2pt;
       }
-      //ikke besøgt slut
-      //besøgt
-      a:visited {
-        color: #4e6380;
-        text-decoration: none;
-        background-color: #ffffff;
-        padding: 4pt;
+      //nav_normal slut
+
+      //nav_aktuel side
+      .active {
+        color: #80b6ff;
+        background-color: #000;
+        padding: 2pt;
       }
-      //besøgt slut
-      //hover
-      /*a:hover {
-        color: #4e6380;
-        text-decoration: none;
-      }
-      //hover slut
-      //aktuel side
-      /*a:active {
+      //nav_aktuel side
+
+      //nav_klik
+      a:active {
         //color: #80b6ff;
         color: white;
         background-color: #4e6380;
       text-decoration: none;
-      }*/
-      /*.active {
-        //color: #80b6ff;
-        color: white;
-        background-color: #4e6380;
-        padding: 4pt;
-        text-decoration: none;
       }
-      //aktuel side slut*/
+      //nav_klik slut
+
 
   }
+
+
+
   //navigation slut
 
   footer {
