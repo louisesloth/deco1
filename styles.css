@@ -18,7 +18,7 @@ header {
 
 h1 {
   font-family: Bitter, "Bell MT", Serif;
-  font-style: bold;
+  font-weight: bold;
   text-align: center;
   margin: 16pt;
   color: #338aff;
@@ -43,46 +43,25 @@ p {
 
 nav {
   font-family: Crimson, "Bell MT", Serif;
-  font-style: bold;
-  font-size: 20pt;
+  font-weight: bold;
+  font-size: 13pt;
   display: flex;
   justify-content: space-around;
-  padding: 8px;
-  /*a:hover {
+  padding: 8pt;
+  margin: 0pt 10pt; }
+  nav a {
     color: #4e6380;
     text-decoration: none;
-  }
-  //hover slut
-  //aktuel side
-  /*a:active {
-    //color: #80b6ff;
+    background-color: #ffffff;
+    padding: 2pt; }
+  nav .active {
+    color: #80b6ff;
+    background-color: #000;
+    padding: 2pt; }
+  nav a:active {
     color: white;
     background-color: #4e6380;
-  text-decoration: none;
-  }*/
-  /*.active {
-    //color: #80b6ff;
-    color: white;
-    background-color: #4e6380;
-    padding: 4pt;
-    text-decoration: none;
-  }
-  //aktuel side slut*/ }
-  nav * .active {
-    color: white;
-    background-color: #4e6380;
-    padding: 4pt;
     text-decoration: none; }
-  nav a:link {
-    color: #4e6380;
-    text-decoration: none;
-    background-color: #ffffff;
-    padding: 4pt; }
-  nav a:visited {
-    color: #4e6380;
-    text-decoration: none;
-    background-color: #ffffff;
-    padding: 4pt; }
 
 footer {
   background-color: #000000;
