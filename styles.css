@@ -63,6 +63,10 @@ nav {
     background-color: #4e6380;
     text-decoration: none; }
 
+.produkt {
+  width: 100%;
+  max-width: 400px; }
+
 footer {
   background-color: #000000;
   max-width: 100%;
