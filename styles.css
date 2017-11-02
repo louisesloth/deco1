@@ -87,6 +87,12 @@ nav {
 .pr_section {
   margin: 16pt; }
 
+.p_padding {
+  padding-bottom: 40px; }
+
+#nederste {
+  margin-bottom: +15px; }
+
 footer {
   background-color: #000000;
   max-width: 100%;
