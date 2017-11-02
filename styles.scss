@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%; //1rem=10px
+}
+
 body {
   background-color: #ffffff;
 }
@@ -23,6 +27,17 @@ header {
   display: flex;
   justify-content: space-around;
 }
+
+header div {
+  position: relative;
+}
+
+header div h2{
+  position: absolute;
+  top: 160px;
+  left: 30px;
+}
+
 #logosort {
   width: 160pt;
   height: 124.224pt;
@@ -37,6 +52,13 @@ header {
     margin: 16pt;
     color: #338aff;
     font-size: x-large;
+  }
+
+  h2 {
+    font-familiy: "Centaur", Serif;
+    font-style: italic;
+    font-size: medium;
+    color: #338aff;
   }
 
   p {
@@ -85,7 +107,7 @@ header {
       //nav_aktuel side
       .active {
         color: #80b6ff;
-        background-color: #000;
+        background-color: #4e6380;
         padding: 2pt;
       }
       //nav_aktuel side
