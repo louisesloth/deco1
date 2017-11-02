@@ -61,6 +61,14 @@ header div h2{
     color: #338aff;
   }
 
+  h3 {
+    font-family: Bitter, "Bell MT", Serif;
+    font-weight: bold;
+    font-size: medium;
+    margin: 16pt;
+    color: #4e6380;
+  }
+
   p {
     font-family: Crimson, "Bell MT", Serif;
     text-align: left;
@@ -154,10 +162,21 @@ header div h2{
   margin: 16pt;
 }
 
+.pris {
+  color: black;
+  font-weight: bold;
+}
+
 //produkt-slut
 
 //inspiration
+.p_padding{
+  padding-bottom: 40px;
+}
 
+#nederste{
+  margin-bottom: +15px;
+}
 //inspiration-slut
 
     footer {
