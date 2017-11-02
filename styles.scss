@@ -153,8 +153,8 @@ header div h2{
 
 .produkt {
   width: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 750px;
+  max-height: 750px;
   padding: 20px 0;
   //margin: 16pt;
 }
@@ -321,6 +321,24 @@ header div h2{
 
   }
   @media screen and (min-width: 1200px) {
+
+    #produktside{
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas:
+                "header header header"
+                "nav nav nav"
+                "kay_titel kay_titel kay_titel"
+                "kay1 kay2 kay3"
+                "kaehler_titel kaehler_titel kaehler_titel"
+                "kaehler1 kaehler2 ."
+                "copen_titel copen_titel copen_titel"
+                "copen . ."
+                "ny_titel ny_titel ny_titel"
+                "ny1 ny2 ."
+                "footer footer footer";
+    }
+
     #inspirationsside{
       display: grid;
       grid-template-columns: 50% 50%;
