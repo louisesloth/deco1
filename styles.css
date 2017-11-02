@@ -28,10 +28,10 @@ header div h2 {
   padding: 20pt; }
 
 h1 {
-  font-family: Bitter, "Bell MT", Serif;
+  font-family: "Bitter", "Bell MT", Serif;
   font-weight: bold;
   text-align: center;
-  margin: 16pt;
+  /*margin: 16pt;*/
   color: #338aff;
   font-size: x-large; }
 
@@ -87,6 +87,19 @@ nav {
     background-color: #4e6380;
     text-decoration: none; }
 
+.forside_billeder div img {
+  width: 100%; }
+
+.forside_billeder div {
+  position: relative;
+  margin: 16pt; }
+
+.forside_billeder div h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
 .produkt {
   width: 100%;
   max-width: 400px; }
@@ -116,5 +129,33 @@ footer {
 footer img {
   height: 40px;
   padding: 10px; }
+
+@supports (grid-area: auto) {
+  @media screen and (min-width: 768px) {
+    #produktside {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "header header" "nav nav" "kay kaehler" "copen nye" "footer footer"; }
+
+    header {
+      grid-area: header; }
+
+    nav {
+      grid-area: nav; }
+
+    footer {
+      grid-area: footer; }
+
+    #kay {
+      grid-area: kay; }
+
+    #kaehler {
+      grid-area: kaehler; }
+
+    #copen {
+      grid-area: copen; }
+
+    #nye {
+      grid-area: nye; } } }
 
 /*# sourceMappingURL=styles.css.map */
