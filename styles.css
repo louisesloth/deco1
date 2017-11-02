@@ -236,7 +236,7 @@ footer img {
 
   #produktside {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header" "nav nav nav" "kay_titel kay_titel kay_titel" "kay1 kay2 kay3" "kaehler_titel kaehler_titel kaehler_titel" "kaehler1 kaehler2 ." "copen_titel copen_titel copen_titel" "copen . ." "ny_titel ny_titel ny_titel" "ny1 ny2 ." "footer footer footer"; }
 
   #inspirationsside {

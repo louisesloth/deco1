@@ -350,7 +350,7 @@ header div h2{
 
   #produktside{
       display: grid;
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas:
                 "header header header"
                 "nav nav nav"
