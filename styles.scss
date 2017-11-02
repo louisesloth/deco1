@@ -286,7 +286,7 @@ header div h2{
       grid-template-columns: 50% 50%;
       grid-template-areas:
               "header header"
-              "produkt produkt"
+              "stortekst stortekst"
               "images1 images1"
               "images2 images2"
               "footer footer";
@@ -294,8 +294,8 @@ header div h2{
       header{
         grid-area: header;
       }
-      .produkt{
-        grid-area: produkt;
+      .stortekst{
+        grid-area: stortekst;
       }
       .images1{
         grid-area: images1;
