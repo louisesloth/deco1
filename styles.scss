@@ -61,7 +61,7 @@ header div h2{
   }
 
   h3 {
-    font-family: Bitter, "Bell MT", Serif;
+    font-family: "Bitter", "Bell MT", Serif;
     font-weight: bold;
     font-size: 1rem;
     margin: 16pt;
@@ -69,7 +69,7 @@ header div h2{
   }
 
   p {
-    font-family: Crimson, "Bell MT", Serif;
+    font-family: "Crimson", "Bell MT", Serif;
     text-align: left;
     margin: 16pt;
     color: #4e6380;
@@ -91,9 +91,9 @@ header div h2{
 
   //navigation
   nav {
-    font-family: Crimson, "Bell MT", Serif;
+    font-family: "Crimson", "Bell MT", Serif;
     font-weight: bold;
-    font-size: 13pt;
+    font-size: 1.7rem;
     //nav_placering af tekst
     display: flex;
     justify-content: space-around;
@@ -121,8 +121,7 @@ header div h2{
 
       //nav_klik
       a:active {
-        //color: #80b6ff;
-        color: white;
+        color: #80b6ff;
         background-color: #4e6380;
       text-decoration: none;
       }
@@ -196,6 +195,47 @@ header div h2{
 @supports (grid-area: auto) {
   @media screen and (min-width: 768px) {
 
+    h1 {
+      font-size: 6rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 3rem;
+    }
+
+    header div h2{
+      top: 295px;
+      left: 50px;
+    }
+
+    #logosort {
+      width: 320pt;
+      height: 248.448pt;
+    }
+
+    nav{
+      font-size: 3.2rem;
+    }
+    nav a {
+      padding: 13pt;
+    }
+
+    nav .active {
+      padding: 13pt;
+    }
+
+    nav a:active {
+      padding: 13pt;
+    }
+
     #produktside{
       display: grid;
       grid-template-columns: 50% 50%;
@@ -235,5 +275,6 @@ header div h2{
       grid-area: nye;
     }
 
+    }
   }
 }
