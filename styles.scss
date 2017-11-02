@@ -156,6 +156,8 @@ header div h2{
 .produkt {
   width: 100%;
   max-width: 400px;
+  max-height: 400px;
+  padding: 20px 0;
   //margin: 16pt;
 }
 
@@ -166,6 +168,54 @@ header div h2{
 .pris {
   color: black;
   font-weight: bold;
+}
+
+#kay_titel {
+  grid-area: kay_titel
+}
+
+#kay1{
+  grid-area: kay1;
+}
+
+#kay2 {
+  grid-area: kay2;
+}
+
+#kay3 {
+  grid-area: kay3;
+}
+
+#kaehler_titel{
+  grid-area: kaehler_titel;
+}
+
+#kaehler1{
+  grid-area: kaehler1;
+}
+
+#kaehler2 {
+  grid-area: kaehler2;
+}
+
+#copen_titel {
+  grid-area: copen_titel;
+}
+
+#copen{
+  grid-area: copen;
+}
+
+#ny_titel{
+  grid-area: ny_titel;
+}
+
+#ny1 {
+  grid-area: ny1;
+}
+
+#ny2 {
+  grid-area: ny2;
 }
 
 //produkt-slut
@@ -203,9 +253,17 @@ header div h2{
       grid-template-areas:
               "header header"
               "nav nav"
-              "kay kaehler"
-              "copen nye"
+              "kay_titel kay_titel"
+              "kay1 kay2"
+              "kay3 ."
+              "kaehler_titel kaehler_titel"
+              "kaehler1 kaehler2"
+              "copen_titel copen_titel"
+              "copen ."
+              "ny_titel ny_titel"
+              "ny1 ny2"
               "footer footer";
+      grid-gap: 20px;
     }
 
     header {
@@ -218,22 +276,6 @@ header div h2{
 
     footer {
       grid-area: footer;
-    }
-
-    #kay{
-      grid-area: kay;
-    }
-
-    #kaehler{
-      grid-area: kaehler;
-    }
-
-    #copen{
-      grid-area: copen;
-    }
-
-    #nye{
-      grid-area: nye;
     }
 
   }
