@@ -41,6 +41,13 @@ h2 {
   font-size: medium;
   color: #338aff; }
 
+h3 {
+  font-family: Bitter, "Bell MT", Serif;
+  font-weight: bold;
+  font-size: medium;
+  margin: 16pt;
+  color: #4e6380; }
+
 p {
   font-family: Crimson, "Bell MT", Serif;
   text-align: left;
@@ -86,6 +93,10 @@ nav {
 
 .pr_section {
   margin: 16pt; }
+
+.pris {
+  color: black;
+  font-weight: bold; }
 
 footer {
   background-color: #000000;
