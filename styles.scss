@@ -176,6 +176,9 @@ header div h2{
 #nederste{
   margin-bottom: +15px;
 }
+.inspiration{
+  width: 100%;
+}
 //inspiration-slut
 
     footer {
@@ -275,6 +278,34 @@ header div h2{
       grid-area: nye;
     }
 
+
+  }
+  @media screen and (min-width: 1200px) {
+    #inspirationsside{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas:
+              "header header"
+              "produkt produkt"
+              "images1 images1"
+              "images2 images2"
+              "footer footer";
+
+      header{
+        grid-area: header;
+      }
+      .produkt{
+        grid-area: produkt;
+      }
+      .images1{
+        grid-area: images1;
+      }
+      .images2{
+        grid-area: images2;
+      }
+      footer{
+        grid-area: footer;
+      }
     }
   }
 }
