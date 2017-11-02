@@ -46,10 +46,10 @@ header div h2{
 }
 
   h1 {
-    font-family: Bitter, "Bell MT", Serif;
+    font-family: "Bitter", "Bell MT", Serif;
     font-weight: bold;
     text-align: center;
-    margin: 16pt;
+    /*margin: 16pt;*/
     color: #338aff;
     font-size: x-large;
   }
@@ -133,6 +133,22 @@ header div h2{
 
 //forside
 
+.forside_billeder div img {
+  width: 100%;
+}
+
+.forside_billeder div {
+  position: relative;
+  margin: 16pt;
+}
+
+.forside_billeder div h1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 //forside-slut
 
 //produkt -Anna
@@ -155,7 +171,13 @@ header div h2{
 //produkt-slut
 
 //inspiration
+.p_padding{
+  padding-bottom: 40px;
+}
 
+#nederste{
+  margin-bottom: +15px;
+}
 //inspiration-slut
 
     footer {
