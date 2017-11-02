@@ -168,6 +168,19 @@ header div h2{
   font-weight: bold;
 }
 
+.kurv {
+  border-style: solid;
+  border-color: #4e6380;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kurv:active {
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+}
+
 #kay_titel {
   grid-area: kay_titel
 }
