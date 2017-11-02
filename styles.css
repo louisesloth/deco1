@@ -223,11 +223,11 @@ footer img {
     #inspirationsside {
       display: grid;
       grid-template-columns: 50% 50%;
-      grid-template-areas: "header header" "produkt produkt" "images1 images1" "images2 images2" "footer footer"; }
+      grid-template-areas: "header header" "stortekst stortekst" "images1 images1" "images2 images2" "footer footer"; }
       #inspirationsside header {
         grid-area: header; }
-      #inspirationsside .produkt {
-        grid-area: produkt; }
+      #inspirationsside .stortekst {
+        grid-area: stortekst; }
       #inspirationsside .images1 {
         grid-area: images1; }
       #inspirationsside .images2 {
