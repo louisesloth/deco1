@@ -28,7 +28,7 @@ header div h2 {
   padding: 20pt; }
 
 h1 {
-  font-family: Bitter, "Bell MT", Serif;
+  font-family: "Bitter", "Bell MT", Serif;
   font-weight: bold;
   text-align: center;
   margin: 16pt;
@@ -79,6 +79,18 @@ nav {
     color: white;
     background-color: #4e6380;
     text-decoration: none; }
+
+.forside_billeder div img {
+  width: 100%; }
+
+.forside_billeder div {
+  position: relative;
+  margin: 16pt; }
+
+.forside_billeder div h1 {
+  position: absolute;
+  top: 70px;
+  left: 70px; }
 
 .produkt {
   width: 100%;
