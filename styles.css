@@ -94,15 +94,18 @@ nav {
 .pr_section {
   margin: 16pt; }
 
+.pris {
+  color: black;
+  font-weight: bold; }
+
 .p_padding {
   padding-bottom: 40px; }
 
 #nederste {
   margin-bottom: +15px; }
 
-.pris {
-  color: black;
-  font-weight: bold; }
+.inspiration {
+  width: 100%; }
 
 footer {
   background-color: #000000;
