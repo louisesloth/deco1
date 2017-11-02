@@ -31,7 +31,7 @@ h1 {
   font-family: "Bitter", "Bell MT", Serif;
   font-weight: bold;
   text-align: center;
-  margin: 16pt;
+  /*margin: 16pt;*/
   color: #338aff;
   font-size: x-large; }
 
@@ -96,8 +96,9 @@ nav {
 
 .forside_billeder div h1 {
   position: absolute;
-  top: 70px;
-  left: 70px; }
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
 
 .produkt {
   width: 100%;
@@ -106,15 +107,15 @@ nav {
 .pr_section {
   margin: 16pt; }
 
+.pris {
+  color: black;
+  font-weight: bold; }
+
 .p_padding {
   padding-bottom: 40px; }
 
 #nederste {
   margin-bottom: +15px; }
-
-.pris {
-  color: black;
-  font-weight: bold; }
 
 footer {
   background-color: #000000;
