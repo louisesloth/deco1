@@ -168,7 +168,12 @@ nav {
   margin-bottom: +15px; }
 
 .inspiration {
-  width: 100%; }
+  width: 100%;
+  max-width: 800px; }
+
+#inspirationsside section {
+  margin: auto;
+  max-width: 800px; }
 
 footer {
   background-color: #000000;
@@ -236,8 +241,8 @@ footer img {
 
   #inspirationsside {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "header header" "nav nav" "stortekst stortekst" "images1 images1" "images2 images2" "footer footer"; }
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas: "header header header" "nav nav nav" ". stortekst ." ". images1 ." ". produkt2 ." ". images2 ." "footer footer footer"; }
     #inspirationsside header {
       grid-area: header; }
     #inspirationsside .stortekst {
@@ -246,6 +251,8 @@ footer img {
       grid-area: images1; }
     #inspirationsside .images2 {
       grid-area: images2; }
+    #inspirationsside .produkt2 {
+      grid-area: produkt2; }
     #inspirationsside footer {
       grid-area: footer; } }
 

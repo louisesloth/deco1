@@ -242,7 +242,14 @@ header div h2{
 }
 .inspiration{
   width: 100%;
+  max-width: 800px;
 }
+
+#inspirationsside section {
+  margin: auto;
+  max-width: 800px;
+}
+
 //inspiration-slut
 
     footer {
@@ -355,14 +362,15 @@ header div h2{
 
     #inspirationsside{
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 25% 50% 25%;
       grid-template-areas:
-              "header header"
-              "nav nav"
-              "stortekst stortekst"
-              "images1 images1"
-              "images2 images2"
-              "footer footer";
+              "header header header"
+              "nav nav nav"
+              ". stortekst ."
+              ". images1 ."
+              ". produkt2 ."
+              ". images2 ."
+              "footer footer footer";
 
       header{
         grid-area: header;
@@ -376,6 +384,11 @@ header div h2{
       .images2{
         grid-area: images2;
       }
+
+      .produkt2{
+        grid-area: produkt2;
+      }
+
       footer{
         grid-area: footer;
       }
