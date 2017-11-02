@@ -43,7 +43,7 @@ h2 {
 h3 {
   font-family: "Bitter", "Bell MT", Serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 16pt;
   color: #4e6380; }
 
@@ -52,7 +52,7 @@ p {
   text-align: left;
   margin: 16pt;
   color: #4e6380;
-  font-size: 1.5rem; }
+  font-size: 2.3rem; }
 
 .one_image {
   display: flex;
@@ -167,18 +167,12 @@ footer img {
   height: 40px;
   padding: 10px; }
 
-@supports (grid-area: auto) {
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  @supports (grid-area: auto) {
     h1 {
       font-size: 6rem; }
 
     h2 {
-      font-size: 3rem; }
-
-    h3 {
-      font-size: 2rem; }
-
-    p {
       font-size: 3rem; }
 
     header div h2 {
@@ -213,26 +207,33 @@ footer img {
       grid-area: nav; }
 
     footer {
-      grid-area: footer; } }
-  @media screen and (min-width: 1200px) {
-    #produktside {
-      display: grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "header header header" "nav nav nav" "kay_titel kay_titel kay_titel" "kay1 kay2 kay3" "kaehler_titel kaehler_titel kaehler_titel" "kaehler1 kaehler2 ." "copen_titel copen_titel copen_titel" "copen . ." "ny_titel ny_titel ny_titel" "ny1 ny2 ." "footer footer footer"; }
+      grid-area: footer; }
 
-    #inspirationsside {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-areas: "header header" "stortekst stortekst" "images1 images1" "images2 images2" "footer footer"; }
-      #inspirationsside header {
-        grid-area: header; }
-      #inspirationsside .stortekst {
-        grid-area: stortekst; }
-      #inspirationsside .images1 {
-        grid-area: images1; }
-      #inspirationsside .images2 {
-        grid-area: images2; }
-      #inspirationsside footer {
-        grid-area: footer; } } }
+    footer img {
+      height: 80px;
+      padding: 20px; } } }
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .forside_billeder {
+    display: inline-flex; }
+
+  #produktside {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "header header header" "nav nav nav" "kay_titel kay_titel kay_titel" "kay1 kay2 kay3" "kaehler_titel kaehler_titel kaehler_titel" "kaehler1 kaehler2 ." "copen_titel copen_titel copen_titel" "copen . ." "ny_titel ny_titel ny_titel" "ny1 ny2 ." "footer footer footer"; }
+
+  #inspirationsside {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "header header" "stortekst stortekst" "images1 images1" "images2 images2" "footer footer"; }
+    #inspirationsside header {
+      grid-area: header; }
+    #inspirationsside .stortekst {
+      grid-area: stortekst; }
+    #inspirationsside .images1 {
+      grid-area: images1; }
+    #inspirationsside .images2 {
+      grid-area: images2; }
+    #inspirationsside footer {
+      grid-area: footer; } }
 
 /*# sourceMappingURL=styles.css.map */
