@@ -152,6 +152,7 @@ header div h2{
 
 //produkt -Anna
 
+//billede formatering på min side
 .produkt {
   width: 100%;
   max-width: 750px;
@@ -160,15 +161,18 @@ header div h2{
   //margin: 16pt;
 }
 
+//giver en margin alt inde i mine articler
 .pr_section {
   margin: 16pt;
 }
 
+//formatering til pris teksten
 .pris {
   color: black;
   font-weight: bold;
 }
 
+//køb knappen
 .kurv {
   border-style: solid;
   border-color: #4e6380;
@@ -176,6 +180,7 @@ header div h2{
   justify-content: space-between;
 }
 
+// koden til klik-effekten
 .kurv:active {
   text-decoration: none;
   position: relative;
