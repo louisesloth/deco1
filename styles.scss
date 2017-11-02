@@ -53,7 +53,7 @@ header div h2{
   }
 
   h2 {
-    font-familiy: "Centaur", Serif;
+    font-family: Centaur, serif;
     font-style: italic;
     font-size: 1.5rem;
     color: #338aff;
@@ -66,7 +66,7 @@ header div h2{
     margin: 16pt;
     color: #4e6380;
   }
-  
+
   p {
     font-family: "Crimson", "Bell MT", Serif;
     text-align: left;
@@ -329,6 +329,7 @@ header div h2{
       padding: 20px;
     }
   }
+
   @media screen and (min-width: 1200px) {
 
     .forside_billeder{
